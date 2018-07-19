@@ -1,0 +1,3 @@
+/home/koala/Documents/OpenCV/2_LoadModSave/CMakeFiles/edit_cache.dir
+/home/koala/Documents/OpenCV/2_LoadModSave/CMakeFiles/rebuild_cache.dir
+/home/koala/Documents/OpenCV/2_LoadModSave/CMakeFiles/Gray.dir

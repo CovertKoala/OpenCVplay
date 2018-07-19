@@ -1,0 +1,3 @@
+/home/koala/Documents/OpenCV/10_PixelOps/CMakeFiles/edit_cache.dir
+/home/koala/Documents/OpenCV/10_PixelOps/CMakeFiles/rebuild_cache.dir
+/home/koala/Documents/OpenCV/10_PixelOps/CMakeFiles/PixelOps.dir

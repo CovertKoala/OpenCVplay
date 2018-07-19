@@ -1,0 +1,14 @@
+ProgName = LoadDisp
+CPPFLAGS = -g -Wall
+INCDIR = -I/opt/ros/kinetic/include/opencv-3.3.1-dev
+LIBDIR = -L/opt/ros/kinetic/lib/x86_64-linux-gnu
+LIBS =  -lopencv_core3 -lopencv_imgcodecs3 -lopencv_highgui3
+
+$(ProgName) : LoadDisp.o
+	g++ $(LIBDIR) $(LIBS) -o LoadDisp LoadDisp.o
+
+LoadDisp.o :
+	g++ $(INCDIR) -c LoadDisp.cpp
+
+clean : 
+	rm LoadDisp.o LoadDisp
